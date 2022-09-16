@@ -1,0 +1,78 @@
+/*Para el orden de los componentes de la pantalla*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+/*Cuerpo de la pantalla*/
+body{
+    /*background-image: url(../images/background.jpg);*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: aquamarine;
+}
+/*margenes y dimensiones de la pantalla*/
+main{
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 5px;
+}
+/*contenedor general (dimensiones y margenes)*/
+.contenedor__todo{
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    position: relative;
+}
+
+.contenedor__user-register form h2{ /*Titulo de la pantalla blanca*/
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #103b66;
+}
+
+.contenedor__user-register form input{/*para las entradas de texto del formulario de login*/
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 200px;
+    margin-right: 200px;
+    max-width: 900px;
+    padding: 5px;
+    border: none;
+    background: #F2F2F2;
+    font-size: 16px;
+    outline: none;
+}
+
+.contenedor__user-register form button{/*para el boton del formulario de login*/
+    padding: 10px 30px;
+    margin-top: 10px;
+    border: none;
+    margin-inline: 200px;
+    font-size: 14px;
+    background: #4cfd46;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-weight: bold;
+    outline: none;
+}
+
+.tablaRegistro h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ee0a0a;
+}
+
+.tablaRegistro table th, td{ /*para los bordes de la tabla*/
+    border: 1px solid black;
+    padding: 10px 55px;
+    text-align: left;
+    border-collapse: collapse;
+}

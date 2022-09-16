@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login y registro</title>
+    <link rel="stylesheet" href="../agendarCitas/css/estilos.css">
+</head>
+<body>
+    <main>
+        <div class="contenedor__todo">
+            <!--Division de clase para el regstro de usuarios-->
+            <div class="contenedor__user-register">
+                <ul>
+                    <li><a href="../InicioSesion/index.html">Cerrar Sesión</a></li>
+                </ul>
+                <!--Formulario para el registro de usuarios-->
+                <form id="formRegistro" class="formulario__registro">
+                    <h2>"""""""""""""""""""""""""""""""""""""""""""""""""""""""""</h2>
+                    <h2>BIENVENIDO AL SISTEMA DE CITAS DE TallerTEC</h2>
+                    <h2>"""""""""""""""""""""""""""""""""""""""""""""""""""""""""</h2>
+                    <h3>Agendar Una Cita</h3>
+                    <input id="nombre" type="text" placeholder="Nombre Completo">
+                    <input id="placa" type="text" placeholder="Placa del Vehículo">
+                    <input id="sucursal" type="text" placeholder="Sucursal">
+                    <input id="servicio" type="text" placeholder="Servicio">
+                    <input id="fecha" type="date" placeholder="Fecha">
+                    <button id = "crearCita">Agendar Cita</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <script type="module" src="../agendarCitas/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+    "usuarios" : [{
+        "name": "Juan",
+        "email": "juancho@tallertec.cr",
+        "user": "juancho123",
+        "password": "12345678"
+    }, {
+        "name": "Lisa",
+        "email": "lisa@tallertec.cr",
+        "user": "lisa123",
+        "password": "qwerty"
+    }, {
+        "name": "Mario",
+        "email": "mario@tallertec.cr",
+        "user": "marito",
+        "password": "jajas678"
+    }]
+}

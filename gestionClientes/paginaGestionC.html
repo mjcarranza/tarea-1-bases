@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login y registro</title>
+    <link rel="stylesheet" href="../gestionClientes/css/estilos.css">
+</head>
+<body>
+    <main>
+        <div class="contenedor__todo">
+            <!--Division de clase para el regstro de usuarios-->
+            <div class="contenedor__user-register">
+                <ul>
+                    <li><a href="../gestionTrabajadores/paginaGestionT.html">Ir a Gestión de Trabajadores</a></li>
+                </ul>
+                <!--Formulario para el registro de usuarios-->
+                <form id="formRegistro" class="formulario__registro">
+                    <h2>Registrar Clientes</h2>
+                    <input id="usrName" type="text" placeholder="Nombre Completo">
+                    <input id="usrTelef" type="text" placeholder="Numero de Teléfono">
+                    <input id="usrCed" type="text" placeholder="Cédula">
+                    <input id="usrMail" type="email" placeholder="Correo Electrónico">
+                    <input id="usrDir" type="text" placeholder="Direcciones">
+                    <input id="usrUsuario" type="text" placeholder="Usuario">
+                    <button id = "Registrar">Regitrar Cliente</button>
+                </form>
+                <!--Crear una tabla en este nivel-->
+            </div>
+            <h2>-----------------------------------------------------------------------------------------------------------------------------------------------------------------</h2>
+        </div>
+        <div class="tablaRegistro">
+            <h2>TABLA DE CLIENTES REGISTRADOS</h2>
+            <!--Creacion de una tabla que muestra los datos de los clientes-->
+            <table class="tabla">
+                <tr>
+                    <th>Nombre Completo</th>
+                    <th>Numero de Teléfono</th>
+                    <th>Cédula</th>
+                    <th>Correo Electrónico</th>
+                    <th>Direcciones</th>
+                    <th>Usuario</th>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <script src="..//gestionClientes/js/script.js"></script>
+</body>
+</html>

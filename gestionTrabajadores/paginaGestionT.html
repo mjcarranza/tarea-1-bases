@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login y registro</title>
+    <link rel="stylesheet" href="../gestionTrabajadores/css/estilos.css">
+</head>
+<body>
+    <main>
+        <div class="contenedor__todo">
+            <!--Division de clase para el regstro de usuarios-->
+            <div class="contenedor__user-register">
+                <ul>
+                    <li><a href="../gestionClientes/paginaGestionC.html">Ir a Gestión de Clientes</a></li>
+                </ul>
+                <!--Formulario para el registro de usuarios-->
+                <form id="formRegistro" class="formulario__registro">
+                    <h2>Registrar Trabajadores</h2>
+                    <input id="usrName" type="text" placeholder="Nombre">
+                    <input id="usrApe" type="text" placeholder="Apellidos">
+                    <input id="usrCed" type="text" placeholder="Cédula">
+                    <input id="usrFIng" type="text" placeholder="Fecha de Ingreso">
+                    <input id="usrBirth" type="text" placeholder="Fecha de Nacimiento">
+                    <input id="usrEdad" type="text" placeholder="Edad">
+                    <input id="usrPass" type="text" placeholder="Contraseña">
+                    <input id="usrRol" type="text" placeholder="Rol del Tarabajador">
+                    <button id = "Registrar">Regitrar Trabajador</button>
+                </form>
+                <!--Crear una tabla en este nivel-->
+            </div>
+            <h2>-----------------------------------------------------------------------------------------------------------------------------------------------------------------</h2>
+        </div>
+        <div class="tablaRegistro">
+            <h2>TABLA DE TRABAJADORES REGISTRADOS</h2>
+            <!--Creacion de una tabla que muestra los datos de los clientes-->
+            <table class="tabla">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellidos</th>
+                    <th>Cédula</th>
+                    <th>Fecha Ingreso</th>
+                    <th>Fecha Nacimiento</th>
+                    <th>Edad</th>
+                    <th>Contraseña</th>
+                    <th>Rol</th>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <script src="..//gestionTrabajadores/js/script.js"></script>
+</body>
+</html>

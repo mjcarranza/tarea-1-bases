@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login y registro</title>
+    <link rel="stylesheet" href="../InicioSesion/css/estilos.css">
+</head>
+<body>
+    <main>
+        <div class="contenedor__todo">
+            <div class="caja__trasera">
+                <div class="caja__trasera-login">
+                    <h3>¿Ya tienes una cuenta?</h3>
+                    <p>Inicia sesión para acceder a tu cuenta</p>
+                    <button id = "btn__iniciar-sesion">Iniciar sesión</button>
+                </div>
+                <div class="caja__trasera-register">
+                    <h3>Inicio de sesión de TallerTEC</h3>
+                    <p>Registrate para iniciar sesión</p>
+                </div>
+            </div>
+            <!--Formulario de login y registro-->
+            <div class="contenedor__login-register">
+                <!--login-->
+                <form id="formEntrar" class="formulario__login">
+                    <h2>Iniciar sesión</h2>
+                    <input id="usuarioLog" type="text" placeholder="Usuario">
+                    <input id="contraLog" type="password" placeholder="Contraseña">
+                    <button id = "entrar">Entrar</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="../InicioSesion/js/script.js"></script>
+</body>
+</html>
